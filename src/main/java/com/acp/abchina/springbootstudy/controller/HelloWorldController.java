@@ -11,8 +11,13 @@ public class HelloWorldController {
         return "Hello World";
     }
 
+    /**
+     * 测试数据
+     * @return
+     */
     @RequestMapping("/say")
     public String say() {
         return "Hello World";
     }
+
 }
